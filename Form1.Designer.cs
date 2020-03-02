@@ -33,6 +33,7 @@
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnNovo = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblInstrução = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lblVencedor = new System.Windows.Forms.Label();
             this.btn6 = new System.Windows.Forms.Button();
@@ -45,6 +46,8 @@
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
             this.panelcontrolPlacar = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lblturno = new System.Windows.Forms.Label();
             this.lvlEmpates = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lblPontosPlayer1 = new System.Windows.Forms.Label();
@@ -55,9 +58,6 @@
             this.lblplayer1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblInstrução = new System.Windows.Forms.Label();
-            this.lblturno = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panelcontrolPlacar.SuspendLayout();
@@ -105,7 +105,7 @@
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(130, 51);
             this.btnNovo.TabIndex = 0;
-            this.btnNovo.Text = "Player´s";
+            this.btnNovo.Text = "Players";
             this.btnNovo.UseVisualStyleBackColor = true;
             this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
@@ -130,6 +130,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(457, 364);
             this.panel2.TabIndex = 1;
+            // 
+            // lblInstrução
+            // 
+            this.lblInstrução.AutoSize = true;
+            this.lblInstrução.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstrução.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblInstrução.Location = new System.Drawing.Point(21, 155);
+            this.lblInstrução.Name = "lblInstrução";
+            this.lblInstrução.Size = new System.Drawing.Size(410, 50);
+            this.lblInstrução.TabIndex = 12;
+            this.lblInstrução.Text = "Para Iniciar o Jogo Informe os Jogadores \r\n                  Clicando em Players";
             // 
             // label6
             // 
@@ -271,6 +282,26 @@
             this.panelcontrolPlacar.Size = new System.Drawing.Size(290, 433);
             this.panelcontrolPlacar.TabIndex = 11;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe Script", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(114, 318);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(63, 27);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Turno";
+            // 
+            // lblturno
+            // 
+            this.lblturno.AutoSize = true;
+            this.lblturno.Font = new System.Drawing.Font("Segoe Script", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblturno.Location = new System.Drawing.Point(133, 360);
+            this.lblturno.Name = "lblturno";
+            this.lblturno.Size = new System.Drawing.Size(24, 27);
+            this.lblturno.TabIndex = 12;
+            this.lblturno.Text = "...";
+            // 
             // lvlEmpates
             // 
             this.lvlEmpates.AutoSize = true;
@@ -374,38 +405,6 @@
             this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "PLAYER 1";
-            // 
-            // lblInstrução
-            // 
-            this.lblInstrução.AutoSize = true;
-            this.lblInstrução.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInstrução.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblInstrução.Location = new System.Drawing.Point(21, 155);
-            this.lblInstrução.Name = "lblInstrução";
-            this.lblInstrução.Size = new System.Drawing.Size(410, 50);
-            this.lblInstrução.TabIndex = 12;
-            this.lblInstrução.Text = "Para Iniciar o Jogo Informe os Jogadores \r\n                  Clicando em Player´s" +
-    "";
-            // 
-            // lblturno
-            // 
-            this.lblturno.AutoSize = true;
-            this.lblturno.Font = new System.Drawing.Font("Segoe Script", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblturno.Location = new System.Drawing.Point(133, 360);
-            this.lblturno.Name = "lblturno";
-            this.lblturno.Size = new System.Drawing.Size(24, 27);
-            this.lblturno.TabIndex = 12;
-            this.lblturno.Text = "...";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe Script", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(114, 318);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(63, 27);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Turno";
             // 
             // MainPrincipal
             // 

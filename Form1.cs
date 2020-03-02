@@ -146,7 +146,7 @@ namespace JogodaVelha
                     if (stringArray[hori] == stringArray[hori + 1] && stringArray[hori] == stringArray[hori + 2])
                     {
                         lblVencedor.Visible = true;
-                        lblVencedor.Text = "Wins...!!!!" + verificar + "horizontal";
+                        lblVencedor.Text = verificar + "..Wins...!!!! horizontal";
                         getcampeao(players);
                         return;
                     }
@@ -160,7 +160,7 @@ namespace JogodaVelha
                     if (stringArray[vert] == stringArray[vert + 3] && stringArray[vert] == stringArray[vert + 6])
                     {
                         lblVencedor.Visible = true;
-                        lblVencedor.Text = "Wins...!!!!" + verificar + "vertical";
+                        lblVencedor.Text = verificar + "..Wins...!!!! vertical";
                         getcampeao(players);
                         
                         return;
@@ -173,7 +173,7 @@ namespace JogodaVelha
                 if (stringArray[0] == stringArray[4] && stringArray[0] == stringArray[8])
                 {
                     lblVencedor.Visible = true;
-                    lblVencedor.Text = "Wins...!!!!" + verificar + "Diagonal 1";
+                    lblVencedor.Text = verificar + "..Wins...!!!! Diagonal 1";
                     getcampeao(players);
                     
                     return;
@@ -185,7 +185,7 @@ namespace JogodaVelha
                 if (stringArray[2] == stringArray[4] && stringArray[2] == stringArray[6])
                 {
                     lblVencedor.Visible = true;
-                    lblVencedor.Text = "Wins...!!!!" + verificar + "Diagonal 2";
+                    lblVencedor.Text = verificar + "..Wins...!!!! Diagonal 2";
                     getcampeao(players);
                     return;
                 }
