@@ -83,6 +83,7 @@ namespace JogodaVelha
             {
                 panel2.Enabled = true;
                 lblInstrução.Visible = false;
+                btnLimpar.Enabled = true;
 
 
             }
@@ -117,7 +118,9 @@ namespace JogodaVelha
             lblVencedor.Visible = false;
             panel2.Enabled = false;
             this.Size = new Size(500, this.Size.Height);
-            
+            btnLimpar.Enabled = false;
+
+
         }
 
         private void button4_Click(object sender, EventArgs e)
